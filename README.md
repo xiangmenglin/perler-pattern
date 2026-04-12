@@ -1,5 +1,9 @@
 # 🎨 perler-pattern — 图片转拼豆图纸生成器
 
+![Python](https://img.shields.io/badge/Python-3.7+-blue?logo=python)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Pillow](https://img.shields.io/badge/Pillow->=9.0-yellow)
+
 将任意图片转换为拼豆（Perler Beads）网格图纸，支持多种品牌色板和输出格式。
 
 ## 功能特性
@@ -91,6 +95,15 @@ python perler_pattern.py photo.jpg -o my_design
 | `*_legend.png` | 颜色图例，显示色块 + 编号 + 用量统计 |
 | `*_board.png` | 钉板分割线预览（需 `--board-overlay`） |
 | `*.json` | 完整数据（网格 + 元信息 + 颜色统计） |
+
+## 快速开始
+
+```bash
+pip install Pillow
+python perler_pattern.py your_photo.jpg
+```
+
+就这么简单。生成的图纸可以直接对着拼豆。
 
 ## 支持的色板
 
