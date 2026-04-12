@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated outputs (user-specific)
+*_preview.png
+*_pattern.png
+*_legend.png
+*_board.png
+*.json
+!package.json
